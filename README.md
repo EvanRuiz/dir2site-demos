@@ -13,6 +13,8 @@ Dir2Site is an open-source desktop app that turns any local folder into a polish
 * Preview Generated Site: [Famous Physicists Demo](https://evanruiz.github.io/dir2site-demos/physicists/_site/)
 * Browse source project directory: [Project Directory](https://github.com/EvanRuiz/dir2site-demos/tree/main/physicists)
 
+> Note: Demo content (images, biography, papers) was generated or collected by AI for testing purposes. Any inaccuracies are unintentional — please open an issue to report them.
+
 ## About this repo
 
 Each folder here is a self-contained demo site produced by Dir2Site. Browse the source folders to see how content and configuration files are structured, or open the generated `_site/` subfolder to view the HTML output directly.
