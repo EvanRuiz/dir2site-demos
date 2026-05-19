@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Famous Physicists &mdash; Portrait</title>
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Physicists &gt; C.V. Raman &gt; Portrait">
+    <meta property="og:description" content="Portrait">
+    <meta property="og:image" content="http://localhost:8080/Physicists/C.V. Raman/Portrait/preview-lg-Portrait.webp">
+
+  <link rel="stylesheet" href="../../../js/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../css/site.css">
+</head>
+<body>
+    <div class="site-header">
+      <nav class="navbar navbar-expand-lg navbar-site" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../../">
+            <img src="../../../famous-physicists-in-history-logo-orbital.svg" height="40" alt="Famous Physicists">
+          </a>
+          <ul class="navbar-nav ms-auto flex-row gap-3">
+            <li class="nav-item">
+                        <a class="nav-link" href="../../../Conferences/">Conferences</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../../../Physicists/">Physicists</a>
+                      </li>
+                      </ul>
+        </div>
+      </nav>
+  
+      
+          <nav class="breadcrumb-bar" aria-label="breadcrumb">
+            <div class="container-fluid">
+              <ol class="breadcrumb">
+                
+            <li class="breadcrumb-item"><a href="../../../">Home</a></li>
+            
+            <li class="breadcrumb-item"><a href="../../">Physicists</a></li>
+            
+            <li class="breadcrumb-item"><a href="../">C.V. Raman</a></li>
+            
+            <li class="breadcrumb-item active" aria-current="page">Portrait</li>
+            
+              </ol>
+            </div>
+          </nav>
+          
+    </div>
+
+
+  <div id="osd-viewer"></div>
+
+  <div class="container artifact-meta">
+    <div class="d-flex align-items-center gap-2 mb-1">
+      <h4 class="mb-0">Portrait</h4>
+      <span class="badge badge-type text-white">Photo</span>
+    </div>
+    
+    
+  </div>
+
+    <footer class="container my-3 text-muted small">&#169; 2026</footer>
+
+
+  <script src="../../../js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="../../../js/openseadragon/openseadragon.min.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      OpenSeadragon({
+        id: "osd-viewer",
+        prefixUrl: "../../../js/openseadragon/images/",
+        tileSources: { type: "image", url: "Portrait_q90.webp" },
+        showNavigationControl: true,
+        gestureSettingsMouse: { scrollToZoom: true },
+        constrainDuringPan: true,
+        minZoomImageRatio: 0.8,
+        maxZoomPixelRatio: 2,
+        showNavigator: true,
+        navigatorSizeRatio: 0.25
+      });
+    });
+  </script>
+</body>
+</html>
