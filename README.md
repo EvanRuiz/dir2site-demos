@@ -6,7 +6,7 @@
 
 Example sites generated with [Dir2Site](https://github.com/EvanRuiz/dir2site).
 
-Dir2Site is an open-source desktop app that turns any local folder into a polished static website — photo galleries, PDFs, Markdown articles, and more. Your filesystem is your CMS; everything is stored as plain YAML files alongside your content, trackable in git.
+Dir2Site is an open-source desktop app that turns any local folder into a polished static website — photo galleries, PDFs, Markdown articles, and more. Your filesystem is your CMS; metadata is stored as plain YAML files alongside your content, trackable in your code repository.
 
 ## Demo: Famous Physicists
 
